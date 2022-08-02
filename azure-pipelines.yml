@@ -15,6 +15,6 @@ trigger:
 pool: TestPool
 
 steps:
-- script: echo "Im the main repo"
-  displayName: 'Run a one-line script'
+- script: echo "Im the forked repo"
+- script: echo "Unfortunately"
 - checkout: azdo  
