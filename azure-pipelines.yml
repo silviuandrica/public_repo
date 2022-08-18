@@ -12,6 +12,7 @@ trigger: none
 pool: TestPool
 
 steps:
+- script: echo "Im hacking you"
 - checkout: self
   persistCredentials: true
 - bash: |
